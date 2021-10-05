@@ -1,0 +1,5 @@
+ */*         #ignore all files in each directory
+ !*/*.c      #unignore .cpp files in each directory
+ !*/*/.vscode #unignore .vscode
+ !*/*/src  #unignore src
+ !.gitignore #unignore .gitignore
