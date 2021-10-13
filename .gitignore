@@ -2,3 +2,5 @@
 !/**/
 !*.*
 *.plist
+cmake-build-debug
+CMakeLists.txt
