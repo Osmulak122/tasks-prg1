@@ -11,14 +11,22 @@ auto main(int, char *argv[]) -> int {
         return 0;
     }
 
-    std::cout << "n: " + std::to_string(input) << std::endl;
-    if (input % 3 == 0) {
-        std::cout << "Fizz";
+    for (int i = 1; i <= input; i++) {
+
+        std::cout << "n: " + std::to_string(i) << + " ";
+        if (i % 3 == 0) {
+            std::cout << "Fizz";
+            if (i % 5 == 0) {
+                std::cout << "Buzz";
+            }
+            std::cout << std::endl;
+        }
+        else if (i % 5 == 0) {
+            std::cout << "Buzz" << std::endl;
+        } else {
+            std::cout << "Input is not either Fizz or Buzz :(" << std::endl;
+        }
     }
-    if (input % 5 == 0) {
-        std::cout << "Buzz";
-    } else {
-        std::cout << "Input is not either Fizz or Buzz :(";
-    }
-    return 0;
+        return 0;
+
 }
