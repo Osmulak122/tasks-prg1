@@ -63,29 +63,29 @@ void Hero::createHero() {
 
     if (h_class == "Mage") {
         hp = 60;
-        attack = 19;
+        attack = 15;
     } else if (h_class == "Paladin") {
         hp = 100;
-        attack = 12;
+        attack = 10;
     } else if (h_class == "Warrior") {
         hp = 120;
-        attack = 11;
+        attack = 9;
     } else if (h_class == "Druid") {
         hp = 160;
-        attack = 9;
+        attack = 7;
     } else if (h_class == "Warlock") {
         hp = 90;
-        attack = 13;
+        attack = 11;
     } else if (h_class == "Rogue") {
         hp = 70;
-        attack = 16;
+        attack = 12;
     } else if (h_class == "Hunter") {
         hp = 60;
-        attack = 20;
+        attack = 13;
     } else {
         h_class = "DeathKnight";
         hp = 130;
-        attack = 20;
+        attack = 9;
     }
     sleep(1);
     std::string sex_selection;

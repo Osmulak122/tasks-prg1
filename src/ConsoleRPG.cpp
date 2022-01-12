@@ -249,6 +249,7 @@ void Run() {
     sleep(2);
     Clear();
     HUD();
+    Move();
 }
 void mobAttack() {
     hero.hp -= mob.attack;
